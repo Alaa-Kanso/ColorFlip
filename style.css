@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background: hsl(210, 36%, 96%);
+    color: hsl(209, 61%, 16%);
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2,h4{
+    letter-spacing: 0.1rem;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    text-transform: capitalize;
+}
+
+nav{
+    background-color: white;
+    height: 4rem;
+    display: grid;
+    align-items: center;
+    box-shadow:  0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h4{
+    margin-bottom: 0;
+    color:  hsl(205, 62%, 30%);
+}
+
+.lin{
+    display: flex;
+}
+
+nav a{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1rem;
+    color: hsl(205, 62%, 30%);
+    display: flex;
+    letter-spacing: 5px;
+    margin-right: 1rem;
+}
+
+nav a:hover{
+    color: hsl(205, 86%, 17%);
+}
+
+main{
+    display: grid;
+    place-items: center;
+    margin: 16rem;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.wrapper h2{
+    background: #222;
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.color{
+    color: hsl(204, 89%, 76%);
+}
+
+.btn{
+    text-transform: uppercase;
+    background: transparent;
+    color: #222;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+    font-weight: 400;
+    transition: all 0.3s linear;
+    border: 2px solid #222;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+}
